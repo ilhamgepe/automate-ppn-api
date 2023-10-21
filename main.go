@@ -21,7 +21,7 @@ func main() {
 	}
 
 	// running test
-	interval := 2 * time.Minute
+	interval := 5 * time.Minute
 	ticker := time.NewTicker(interval)
 
 	RunTests()
